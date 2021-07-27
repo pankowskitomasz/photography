@@ -1,0 +1,46 @@
+.bg{
+    &-footer{
+        @include set-background($bg__footer-img,0,"center right","cover","scroll");
+    }
+}
+.border{
+    &-dark-warning{
+        border-color: $color__dark-warning !important;
+    }
+}
+.contact{
+    &-bg{
+        @include set-background($bg__contact-img,0,"top left","cover","fixed");
+    }
+    &-form{
+        .form-control{
+            &:focus{
+                box-shadow: $input__focus-shadow !important;
+            }
+        }
+    }
+}
+.login{
+    &-form{
+        @include set-background($bg__login-img,0,"top left","cover","fixed");
+        .form-control{
+            &:focus{
+                box-shadow: $input__focus-shadow !important;
+            }
+        }
+    }
+}
+.register{
+    &-form{
+        @extend .login-form;
+    }
+}
+.opacity{
+    &-8{
+        opacity: 0.8;
+    }
+}
+
+textarea{
+    resize: none;
+}
