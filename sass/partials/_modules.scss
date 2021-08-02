@@ -1,6 +1,23 @@
+.about{
+    &-desc{
+        @include set-background($bg__about-desc-img,0,"top left","cover","scroll");
+    }
+    &-ext{
+        @include set-background($bg__about-ext-img,0,"top left","cover","scroll");
+    }
+}
 .bg{
+    &-blog{
+        @include set-background($bg__blog-img,0,"center right","cover","scroll");        
+    }
+    &-classes{
+        @include set-background($bg__classes-img,0,"center right","cover","scroll");        
+    }
     &-footer{
         @include set-background($bg__footer-img,0,"center right","cover","scroll");
+    }
+    &-home{        
+        @include set-background($bg__home-img,0,"center right","cover","scroll");        
     }
 }
 .border{
