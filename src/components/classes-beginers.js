@@ -24,7 +24,7 @@ class ClassesBeginners extends Component{
                             src="img/about/about-desc.png"/>
                     </Col>
                     <Col xs={12} md={6} className="text-center text-md-start p-4 d-flex align-items-center">
-                        <div>
+                        <div className="px-4">
                             <h2 className="mb-3 mt-5 font-logo">
                                 Classes for Beginners
                             </h2>

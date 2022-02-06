@@ -13,7 +13,7 @@ class AboutExt extends Component{
                             className="img-fluid w-75 mx-auto"
                             src="img/about/about-ext.png"/>
                     </Col>
-                    <Col xs={12} md={6} className="text-center text-md-start p-4 d-flex align-items-center order-1 order-md-2">
+                    <Col xs={12} md={6} className="text-center text-md-start p-5 d-flex align-items-center order-1 order-md-2">
                         <div>
                             <h2 className="mb-3 mt-5 font-logo">
                                 The Concept

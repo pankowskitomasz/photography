@@ -6,14 +6,14 @@ import Col from "../../node_modules/react-bootstrap/Col";
 class HomeTop extends Component{
     render(){
         return(        
-            <Container fluid className={"p-0 d-flex align-items-center py-3 "+this.props.classExt}>
+            <Container fluid className={"p-0 d-flex align-items-center "+this.props.classExt}>
                 <Row className="mx-auto text-center w-100 text-dark">
-                    <Col xs={6} className="text-center mx-auto d-flex align-items-end">
+                    <Col xs={6} className="text-center mx-auto d-flex align-items-end pt-5 mt-5">
                         <img alt="about"
                             className="img-fluid w-75 mx-auto"
                             src="img/home/home-top.png"/>
                     </Col>
-                    <Col xs={12} md={6} className="text-center text-md-start px-4 d-flex align-items-center">
+                    <Col xs={12} md={6} className="text-center text-md-start px-4 pb-5 d-flex align-items-center">
                         <div className="w-75 mx-auto">
                             <h2 className="mb-3 mt-5 display-5 fw-bold">
                                 Photography

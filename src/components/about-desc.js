@@ -17,7 +17,7 @@ class AboutDesc extends Component{
         }
         return(        
             <Container fluid className={"about-desc p-0 minh-50vh d-flex align-items-center py-3 "+this.props.classExt}>
-                <Row className="mx-auto text-center w-100 text-dark py-5">
+                <Row className="mx-auto text-center w-100 text-dark p-5">
                     <Col xs={12} md={6} className="text-center text-md-start p-4 d-flex align-items-center">
                         <div>
                             <h2 className="mb-3 mt-5 font-logo">
