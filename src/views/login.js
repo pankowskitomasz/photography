@@ -34,7 +34,7 @@ class Login extends Component{
             content = <LoginError backNav={this.hndViewChange.bind(this)}/>
         }
         return(        
-            <main className="minh-footer-adj p-header bg-white">
+            <main className="minh-100vh p-header bg-white">
                 {content}
             </main>
         );
